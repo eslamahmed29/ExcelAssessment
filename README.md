@@ -51,13 +51,13 @@ dotnet run
 Access the Application:
 
 Open your browser and navigate to https://localhost:5001 (or the specified port).
-# Upload an Excel File:
+##### Upload an Excel File:
 
 Use the interface to upload your "Taxes Sheet.xlsx" file.
 The application will process the sheet and display the calculated totals.
 Download the Modified Excel:
 
-# After processing, click the download button to get the modified Excel file.
+##### After processing, click the download button to get the modified Excel file.
 
 ### Project Structure
 Controllers: Contains the HomeController for managing file uploads and processing logic.
