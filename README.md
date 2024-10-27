@@ -3,16 +3,16 @@
 This project is a web-based application developed in C# using ASP.NET Core. The application allows users to upload an Excel sheet, perform calculations, and download the modified version of the sheet.
 
 ## Features:
-# Excel Import:
+### Excel Import:
 Allows users to upload an Excel file containing tax data.
-# Data Processing:
+### Data Processing:
 Adds a new column called "Total Value before Taxing" and calculates values based on the provided tax information.
-# Automatic Calculations: 
+### Automatic Calculations: 
 Adds a summary row at the end, calculating the sum of "Total Value After Taxing" and "Total Value before Taxing".
-# Download Processed Excel:
+### Download Processed Excel:
 Provides an option to download the modified Excel sheet with the new calculations.
 
-## Technologies Used
+### Technologies Used
 #### .NET 6.0 / .NET Core 6.0: For building the web application.
 #### ASP.NET Core MVC: Used for the web interface.
 #### EPPlus: A library for reading from and writing to Excel files.
@@ -24,14 +24,14 @@ Visual Studio 2022 or a compatible IDE with .NET 6.0 support.
 Git: Download Git
 
 ### Installation
-## Clone the Repository:
+#### Clone the Repository:
 
 bash
 Copy code
 git clone https://github.com/yourusername/ExcelAssessmentProject.git
 cd ExcelAssessmentProject
 
-## Open the Project:
+#### Open the Project:
 
 Open the solution file (.sln) in Visual Studio.
 Install Dependencies:
