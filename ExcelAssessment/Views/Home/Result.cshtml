@@ -1,0 +1,19 @@
+﻿@{
+    ViewData["Title"] = "Excel Processing Result";
+    var totalAfterTaxSum = ViewData["TotalAfterTaxSum"];
+    var fileName = ViewData["FileName"] as string;
+}
+
+<h2>Excel Processing Result</h2>
+
+@if (totalAfterTaxSum != null && Convert.ToDouble(totalAfterTaxSum) != 0)
+{
+    <p>The sum of "Total Value After Taxing" is: <strong>@totalAfterTaxSum</strong></p>
+    <a asp-action="DownloadModifiedSheet" asp-controller="Home" asp-route-fileName="@fileName" class="btn btn-success">
+        Download Modified Excel Sheet
+    </a>
+}
+else
+{
+    <p>Sum calculation returned zero or is not available.</p>
+}
